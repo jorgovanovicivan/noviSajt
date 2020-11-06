@@ -1,0 +1,43 @@
+.kontrol{
+   
+    background: linear-gradient(
+      53deg,
+      #f2f2f2,
+      #999999
+    );
+}
+#prvi{
+    background: #78d3a6;
+   
+}
+#drugi{
+    width: 70%;
+    height: 100px;
+    margin:  50px auto;
+    background: linear-gradient(
+      53deg,
+      #ccfffc,
+      #60d16a
+    );
+
+  display: grid;
+}
+#brisi{
+
+  background: linear-gradient(
+    53deg,
+    #ccfffc,
+    #ffcccf
+  );
+}
+#navbar-izbaci{
+  background: #ffcccf;
+}
+
+#izbaci{  width: 70%;
+  height: 100px;
+  margin:  50px auto;}
+  #zagl{
+    background-color: indigo;
+  }
+
