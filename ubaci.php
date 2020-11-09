@@ -40,7 +40,7 @@
                     
                     $flag = 0;
                   
-                    if ($_POST['funkcija'] == 'glavni_majstor' || $_POST['funkcija'] == "pomocni_majstor" || $_POST['funkcija'] == "racunovodja" || $_POST['funkcija'] == "praktikant") {
+                    if ($_POST['funkcija'] == 'glavni majstor' || $_POST['funkcija'] == "pomocni majstor" || $_POST['funkcija'] == "racunovodja" || $_POST['funkcija'] == "praktikant") {
                         $flag = 1;
                     }
                     if (isset($_POST['ime']) && isset($_POST['prezime']) && isset($_POST['funkcija']) && $flag == 1) {

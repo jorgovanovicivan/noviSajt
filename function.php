@@ -1,13 +1,13 @@
 <?php
-define('DB_SERVER','localhost');
-define('DB_USER','root');
-define('DB_PASS' ,'');
-define('DB_NAME', 'automehanicarska_radnja');
+define('server','localhost');
+define('user','root');
+define('password' ,'');
+define('dbname', 'automehanicarska_radnja');
 class DB_con
 {
 function __construct()
 {
-$con = mysqli_connect(DB_SERVER,DB_USER,DB_PASS,DB_NAME);
+$con = mysqli_connect(server,user,password,dbname);
 $this->dbh=$con;
 if (mysqli_connect_errno())
 {

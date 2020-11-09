@@ -20,7 +20,7 @@
                 <h1 style="text-align:center;" >Korisnički servis</h1>
                 <form method="post" action="">
                     <div class="input-group"style=" margin:50px; ">
-                        <div class="input-group-prepend" >
+                        <div class="input-group-prepend ">
                             <span class="input-group-text">Ime i prezime:</span>
                         </div>
                         <input type="text" aria-label="First name" class="form-control" name="ime">

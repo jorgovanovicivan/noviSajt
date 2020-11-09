@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,12 +12,10 @@
 if (!isset ($_GET["id_radnika"])){
 echo "Parametar nije prosleđen!";
 } else {
-$pomocna=$_GET["id_radnika"];
+$pom=$_GET["id_radnika"];
 include "konekcija.php";
-$sql="SELECT * FROM radnici WHERE id_radnika='".$pomocna."'";
-$rezultat = $mysqli->query($sql);
-
-
+$sql="SELECT * FROM radnici WHERE id_radnika='".$pom."'";
+$rez = $mysqli->query($sql);
 echo "<table border='3' >
 <tr>
 <th>ID</th>
@@ -27,7 +23,7 @@ echo "<table border='3' >
 <th>Prezime</th>
 <th>Funkcija</th>
 </tr>";
-while($red = $rezultat->fetch_object()){
+while($red = $rez->fetch_object()){
  echo "<tr border='3'>";
  echo "<td>" . $red->id_radnika . "</td>";
  echo "<td>" . $red->ime . "</td>";
