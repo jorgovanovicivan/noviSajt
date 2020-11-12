@@ -10,7 +10,7 @@ if (xmlHttp==null){
  alert ("Browser does not support HTTP Request");
  return;
  }
-var url="sugerisi.php";
+var url="sug.php";
 url=url+"?unos="+naziv;
 url=url+"&sid_radnika="+Math.random();
 xmlHttp.onreadystatechange=stateChanged; 

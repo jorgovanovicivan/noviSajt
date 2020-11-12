@@ -6,7 +6,7 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  <script src="sugerisi.js" type="text/javascript"></script>
+  <script src="sug.js" type="text/javascript"></script>
   <script type="text/javascript">
     function place(ele) {
       document.getElementById('txt').value = ele.innerHTML;
@@ -33,8 +33,8 @@
     <div class="row">
 
 
-      <div class="col">
-        <div class="card" style="width: 24rem;padding:50px;">
+      <div class="col" >
+        <div class="card"  style="width: 24rem;padding:50px; ">
           <img src="slike/ubaci.png" class="card-img-top" alt="">
           <div class="card-body"style=" padding:1px; ">
             <h5 class="card-title">Ubaci novog zaposlenog</h5>
